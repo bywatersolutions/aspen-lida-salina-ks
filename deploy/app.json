@@ -1,0 +1,15 @@
+{
+  "name": "Salina Public Library Catalog",
+  "slug": "salina-ks",
+  "easId": "ecefe368-767e-484a-8753-6c668cfb3eb5",
+  "reverseDns": "org.salinapubliclibrary.discover",
+  "discoveryUrl": "https://discover.salinapubliclibrary.org/",
+  "greenhouseUrl": "https://discover.salinapubliclibrary.org/",
+  "libraryId": "5",
+  "themeId": "1",
+  "background": "#ffffff",
+  "sentryProject": "aspen-lida-salina-ks",
+  "sentryDsn": "https://6ce22698ea6946118f82aaf18844c4d6@o994439.ingest.sentry.io/6475193",
+  "ascAppId": "1626356748",
+  "logLevel": "0"
+}
