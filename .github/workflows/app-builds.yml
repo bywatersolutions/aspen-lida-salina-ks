@@ -150,14 +150,6 @@ jobs:
           yarn add node-fetch@2
         working-directory: ./code
 
-      - name: 🔧 Fix native module compilation for Xcode
-        if: matrix.platform == 'ios'
-        run: |
-          yarn cache clean
-          rm -rf node_modules
-          yarn install --network-timeout 100000
-        working-directory: ./code
-
       - name: 📱 Setup EAS build cache
         uses: actions/cache@v3
         with:
